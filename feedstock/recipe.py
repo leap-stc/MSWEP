@@ -117,8 +117,7 @@ fs = s3fs.S3FileSystem(
     key="", secret="", client_kwargs={"endpoint_url": root_dir}
 )
 mapper = fs.get_mapper(os.path.join(root_dir,product_name,f"{product_name}.zarr"))
-
-cds.chunk({"time": 100, "lat": 360, "lon": 720}).to_zarr(
+cds.chunk({"time": 100, "lat": 180, "lon": 360}).to_zarr(
     mapper, mode="w", consolidated=True
 )
 
