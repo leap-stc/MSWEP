@@ -1,4 +1,4 @@
-"ncviewjs:meta_yaml_url": "https://github.com/grace-grace-fo-tws/meta.yaml"
+"ncviewjs:meta_yaml_url": "https://github.com/leap-stc/GRACE-GRACE-FO-TWS/blob/main/feedstock/meta.yaml"
 tags:
   - GRACE
   - GRACE-FO
@@ -14,6 +14,7 @@ tags:
 stores:
   - id: "GRACE-GRACE-FO-TWS"
     name: "GRACE & GRACE-FO Total Water Storage (TWS)"
-    url: "https://data.jpl.nasa.gov/grace-fo-tws.zarr"
+    url: "https://nyu1.osn.mghpcc.org/leap-pangeo-pipeline/GRACE-GRACE-FO-TWS/GRACE-GRACE-FO-TWS.zarr"
     source: "GRACE/GRACE-FO Satellite Mission Data (2002–Present)"
     source_url: "https://www.nasa.gov/mission_pages/grace/index.html"
+
