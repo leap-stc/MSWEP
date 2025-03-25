@@ -1,20 +1,20 @@
-"ncviewjs:meta_yaml_url": "https://github.com/leap-stc/GRACE-GRACE-FO-TWS/blob/main/feedstock/meta.yaml"
+"ncviewjs:meta_yaml_url": "https://github.com/leap-stc/MSWEP/blob/main/feedstock/meta.yaml"
+
 tags:
-  - GRACE
-  - GRACE-FO
-  - Total Water Storage (TWS)
-  - Earth Observation
-  - Satellite Data
+  - MSWEP
+  - Precipitation
   - Global
-  - Remote Sensing
-  - Hydrology
+  - High-Resolution
+  - Earth Observation
   - Climate Monitoring
-  - Water Resources
+  - Hydrology
+  - Remote Sensing
+  - Water Cycle
+  - Meteorology
 
 stores:
-  - id: "GRACE-GRACE-FO-TWS"
-    name: "GRACE & GRACE-FO Total Water Storage (TWS)"
-    url: "https://nyu1.osn.mghpcc.org/leap-pangeo-pipeline/GRACE-GRACE-FO-TWS/GRACE-GRACE-FO-TWS.zarr"
-    source: "GRACE/GRACE-FO Satellite Mission Data (2002–Present)"
-    source_url: "https://www.nasa.gov/mission_pages/grace/index.html"
-
+  - id: "MSWEP"
+    name: "MSWEP: Multi-Source Weighted-Ensemble Precipitation"
+    url: "https://nyu1.osn.mghpcc.org/leap-pangeo-pipeline/MSWEP/MSWEP.zarr"
+    source: "Multi-Source Precipitation Data (1979–Present)"
+    source_url: "https://www.gloh2o.org/ppdist/"
