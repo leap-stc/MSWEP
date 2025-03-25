@@ -1,50 +1,35 @@
-title: "GRACE-GRACE-FO-TWS"
-description: "Global Total Water Storage (TWS) data derived from GRACE and GRACE-FO satellite missions. This dataset is used for hydrological and climate monitoring, assessing water resources on a global scale."
+title: "MSWEP"
+description: "Global high-resolution precipitation dataset combining gauge, satellite, and reanalysis data. MSWEP supports hydrological and climate research by providing consistent precipitation estimates from 1979 to present."
 
 recipes:
-  - id: "GRACE-GRACE-FO-TWS"
-    object: "recipe:GRACE-GRACE-FO-TWS"
+  - id: "MSWEP"
+    object: "recipe:MSWEP"
 
 provenance:
   providers:
-    - name: "NASA GRACE & GRACE-FO Mission"
-      description: "NASA's GRACE and GRACE-FO missions measure changes in Earth's water storage, using satellite gravimetry data to monitor total water storage variations worldwide."
+    - name: "GloH2O"
+      description: "GloH2O develops and distributes the MSWEP dataset, blending multiple data sources to provide global precipitation estimates for water resources and climate-related applications."
       roles:
         - data provider
-        - research institution
-      url: "https://www.nasa.gov/mission_pages/grace/index.html"
-
-    - name: "Jet Propulsion Laboratory (JPL)"
-      description: "The Jet Propulsion Laboratory (JPL) processes GRACE and GRACE-FO satellite data for Earth science research and water storage monitoring."
-      roles:
-        - data provider
-        - research institution
-      url: "https://www.jpl.nasa.gov/"
+        - research organisation
+      url: "https://www.gloh2o.org/"
 
   license: "Creative Commons Attribution 4.0 (CC BY 4.0)"
 
 acknowledgements: >
-  The GRACE and GRACE-FO Total Water Storage dataset is based on data from NASA's GRACE and GRACE-FO missions, which measure Earth's gravity field variations to monitor changes in global water storage. We acknowledge the **NASA GRACE and GRACE-FO mission teams** for providing the satellite gravimetry data, which is accessible at [NASA GRACE page](https://www.nasa.gov/mission_pages/grace/index.html). The dataset has been validated through comparisons with hydrological models, in-situ measurements, and other water resources monitoring efforts.
+  The MSWEP dataset is developed by **GloH2O** and blends rain gauge data, satellite observations, and reanalysis to produce a globally consistent precipitation product. We thank the data providers and acknowledge the efforts of researchers who have validated and improved MSWEP over the years. More details and access are available at the [GloH2O MSWEP page](https://www.gloh2o.org/ppdist/).
 
 citation:
-  - authors: "Landerer, F.W., Swenson, S.C."
-    year: 2012
-    title: "Accuracy of scaled GRACE terrestrial water storage estimates."
-    journal: "Water Resources Research"
-    volume: 48
-    pages: W04531
-    doi: "10.1029/2011WR011453"
-
-  - authors: "Wahr, J., Molenaar, M., & Bryan, F."
-    year: 1998
-    title: "Time-variable gravity from satellite observations."
-    journal: "Journal of Geophysical Research"
-    volume: 103
-    pages: 30205-30229
-    doi: "10.1029/98JB02844"
+  - authors: "Beck, H.E., Wood, E.F., Pan, M., Fisher, C.K., Miralles, D.G., van Dijk, A.I.J.M., McVicar, T.R., Adler, R.F."
+    year: 2019
+    title: "MSWEP V2 global 3-hourly 0.1° precipitation: Methodology and quantitative assessment."
+    journal: "Bulletin of the American Meteorological Society"
+    volume: 100
+    pages: 473–500
+    doi: "10.1175/BAMS-D-17-0138.1"
 
 contact:
-  email: "grace@nasa.gov"
+  email: "mswep@gloh2o.org"
 
 maintainers:
   - name: "Mitra Cattry"
